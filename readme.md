@@ -15,3 +15,5 @@ proyecto-web-scraping
     4.1 heroku container:login
 5. desplegar
     5.1 heroku container:push web -a proyecto-web-scraping
+    (Ejecuta la imagen en nuestro server )
+    5.2 heroku container:release web -a proyecto-web-scraping
